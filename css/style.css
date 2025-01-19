@@ -180,6 +180,30 @@ a:focus {
   color: #000000;
 }
 
+@media (max-width: 530px) {
+  .navbar-brand span {
+    font-weight:600;
+    font-size: 20px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar-brand span {
+    font-weight:600;
+    font-size: 15px;
+    color: #000000;
+  }
+}
+
+@media (max-width: 370px) {
+  .navbar-brand span {
+    font-weight:600;
+    font-size: 13px;
+    color: #000000;
+  }
+}
+
 .custom_nav-container {
   padding: 0;
 }
@@ -212,6 +236,12 @@ a:focus {
 
 .custom_nav-container .nav_search-btn:hover {
   color: #000000;
+}
+
+@media (max-width: 530px) {
+  .custom_nav-container .navbar-toggler {
+    scale: 0.5;
+  }
 }
 
 .custom_nav-container .navbar-toggler {
