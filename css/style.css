@@ -7,6 +7,19 @@ body {
   scroll-behavior: smooth;
 }
 
+#map {
+  height: 400px; /* Set a fixed height for the map */
+  width: 100%;   /* Full width */
+}
+
+.btn_box{
+  margin-top: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
